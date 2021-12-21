@@ -1,5 +1,5 @@
 $('#myId').text("Hello World");
-$('a').attr('href', 'https://learn.jquery.com/using-jquery-core/attributes/');
+$('a').text('myLink').attr('href', 'https://learn.jquery.com/using-jquery-core/attributes/');
 let bigDiv = $('#parent');
 
 bigDiv.children().css({'height' : '10vh', 'width' : '15vw', 'border' : '1px dashed black'});
