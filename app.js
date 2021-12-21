@@ -4,4 +4,6 @@ let bigDiv = $('#parent');
 
 bigDiv.children().css({'height' : '10vh', 'width' : '15vw', 'border' : '1px dashed black'});
 
-bigDiv.children().get(1).append('ceci est un texte');
+bigDiv.children().eq(1).append('ceci est un texte');
+
+alert(bigDiv.children().eq(1).index());
